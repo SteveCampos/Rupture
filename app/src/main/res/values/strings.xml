@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rupture</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- STRINGS VALUES SPLASH SCREEN -->
+    <string name="splash_screen_app_name">RUPTURE</string>
+    <string name="splash_screen_developer_name">BY  STEVE  CAMPOS</string>
+    <string name="title_activity_scan_result">ScanResult</string>
+    <string name="title_activity_scan_result_segunda_opcion">scan_result_segunda_opcion</string>
+    <string name="title_activity_mostrar_redes">mostrarRedes</string>
+
+</resources>

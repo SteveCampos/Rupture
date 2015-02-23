@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".RuptureSplashScreen">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:background="#0E1317">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_screen_app_name"
+            android:id="@+id/textView_Splash_Screen_App_Name"
+            android:gravity="center_horizontal"
+            android:textColor="#F8FFFF"
+            android:textStyle="bold"
+            android:focusable="false"
+            android:textSize="48dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:id="@+id/textView_Splash_Screen_Progress_Bar"
+            android:gravity="center_horizontal"
+            android:background="#C21733"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_screen_developer_name"
+            android:id="@+id/textView_Splash_Screen_Developer_Name"
+            android:gravity="center_horizontal"
+            android:textColor="#F8FFFF"
+            android:textSize="12dp"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</LinearLayout>

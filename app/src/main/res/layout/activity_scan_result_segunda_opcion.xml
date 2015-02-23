@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.rupture.jairsteve.rupture.scan_result_segunda_opcion">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_background"
+        android:scaleType="centerCrop"
+        android:alpha="0.3"
+        >
+
+        </ImageView>
+</FrameLayout>
